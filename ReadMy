@@ -1,4 +1,6 @@
-for git:
+https://mycontraption.com/programming-the-msp430-launchpad-on-ubuntu/
+sudo apt-get install binutils-msp430 gcc-msp430 msp430-libc mspdebug
+for git: git push -u origin master
 
 hard:
  conecter:
@@ -9,3 +11,7 @@ _________
 |__\||||_|
    |||||
   NC |
+  
+ Oder ation:
+1:	msp430-gcc -mmcu=msp430f2012 blink.c
+2:	mspdebug rf2500 "prog a.out"
